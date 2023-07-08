@@ -99,13 +99,6 @@
     display:none
   }  */
   
-  .musicc{
-    position: absolute; /* Đặt vị trí tuyệt đối */
-    top: 0; /* Đặt vị trí đứng ở phía trên cùng */
-    left: 0; /* Đặt vị trí ngang ở phía trái cùng */
-    z-index: 9999; /* Đặt giá trị z-index lớn hơn tất cả các khối khác */
-  }
-  
   @-webkit-keyframes spin {
     from {
       -webkit-transform: rotateY(0deg);
