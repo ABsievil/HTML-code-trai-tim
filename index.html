@@ -48,7 +48,12 @@
       <audio id="myAudio">
         <source src="diewithasmile.mp3" type="audio/mpeg">
       </audio>
-      <button id="play-button" onclick="playAudio()">Play</button>
+      <button id="play-button" style="display: none;">Play</button>
+      <script>
+        setTimeout(function() {
+          playAudio();
+        }, 5000);
+      </script>
     </div>
     
     <script>
